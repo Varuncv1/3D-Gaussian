@@ -2,16 +2,9 @@
 
 ### [Project Page](https://city-super.github.io/horizon-gs/) | [Paper](https://arxiv.org/pdf/2412.01745)
 
-[Lihan Jiang*](https://jianglh-whu.github.io/), [Kerui Ren*](https://github.com/tongji-rkr), [Mulin Yu](https://scholar.google.com/citations?user=w0Od3hQAAAAJ), [Linning Xu](https://eveneveno.github.io/lnxu), [Junting Dong](https://jtdong.com/), [Tao Lu](https://github.com/inspirelt), [Feng Zhao](https://scholar.google.co.uk/citations?user=r6CvuOUAAAAJ&hl=en), [Dahua Lin](http://dahua.site/), [Bo Dai](https://daibo.info/) ✉️ <br />
-
 ## Overview
 
 Implementation of Horizon-GS, a novel approach built upon Gaussian Splatting techniques, tackles the unified reconstruction and rendering for aerial and street views. Horizon-GS addresses the key challenges of combining these perspectives with a new training strategy, overcoming viewpoint discrepancies to generate high-fidelity scenes.
-
-<p align="center">
-<img src="assets/teaser.png" width=100% height=100% 
-class="center">
-</p>
 
 ## Installation
 
@@ -87,14 +80,7 @@ python metrics.py -m <path to trained model> # Compute error metrics on renderin
 python export_mesh.py -m <path to trained model> # Export mesh
 ```
 
-## Contact
-
-- Lihan Jiang: mr.lhjiang@gmail.com
-- Kerui Ren: renkerui@pjlab.org.cn
-
 ## Citation
-
-If you find our work helpful, please consider citing:
 
 ```bibtex
 @inproceedings{jiang2025horizon,
@@ -105,18 +91,3 @@ If you find our work helpful, please consider citing:
   year={2025}
 }
 ```
-
-## LICENSE
-
-Please follow the LICENSE of [3D-GS](https://github.com/graphdeco-inria/gaussian-splatting).
-
-## Acknowledgement
-We thank all authors from the following repositories for their excellent work:
-- [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://github.com/graphdeco-inria/gaussian-splatting)
-- [2D Gaussian Splatting for Geometrically Accurate Radiance Fields](https://github.com/hbb1/2d-gaussian-splatting)
-- [Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering](https://github.com/city-super/Scaffold-GS)
-- [Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians](https://github.com/city-super/Octree-AnyGS)
-- [VastGaussian: Vast 3D Gaussians for Large Scene Reconstruction](https://github.com/kangpeilun/VastGaussian)
-- [A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets](https://github.com/graphdeco-inria/hierarchical-3d-gaussians)
-- [Drone-assisted Road Gaussian Splatting with Cross-view Uncertainty](https://github.com/SainingZhang/uc-gs/)
-- [gsplat](https://github.com/nerfstudio-project/gsplat)
